@@ -1,0 +1,44 @@
+.topRow {
+    height: 3em;
+    margin: 1em 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topRow > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.topRow h2, .topRow p {
+    padding: 0;
+    margin: 0;
+}
+
+.topRow i {
+    font-size: 1em;
+}
+
+.details {
+    padding: 0;
+    margin: 0;
+}
+
+.detailsBlock {
+    margin-bottom: 1em;
+}
+
+.meta {
+    margin: 0 0 0.25em 0;
+}
+
+.meta h3,
+.meta p {
+    margin: 0;
+    padding: 0;
+}

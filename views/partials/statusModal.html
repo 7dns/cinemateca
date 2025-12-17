@@ -1,0 +1,30 @@
+<div class="modal fade" id="statusModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header d-flex flex-column justify-content-center align-items-center flex-grow-1 text-center">
+				<h2>
+					<i id="modal-title-icon" class="bi"></i>
+					<span id="modal-title-text"></span>
+				</h2>
+			</div>
+			<div class="modal-body">
+				<p id="modal-message" class="text-muted m-0"></p>
+			</div>
+			<div class="modal-footer">
+
+				<!-- Close Button (without redirect) -->
+				<button type="button" class="modal-close-btn btn w-100 mx-auto" data-bs-dismiss="modal" style="display: none;">
+					<i class="bi bi-check-circle-fill me-2 p-0 m-0"></i>
+					<span id="modal-close-text">OK</span>
+				</button>
+
+				<!-- Redirect Button (with link) -->
+				<button type="button" class="modal-redirect-btn btn w-100 mx-auto" style="display: none;">
+					<i id="modal-redirect-icon" class="bi bi-arrow-left-circle-fill me-2 p-0 m-0"></i>
+					<span id="modal-redirect-text">Back</span>
+				</button>
+
+			</div>
+		</div>
+	</div>
+</div>

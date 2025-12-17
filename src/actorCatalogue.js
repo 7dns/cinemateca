@@ -1,0 +1,64 @@
+import { database } from './database.js';
+import { createActorSlug } from './utils/slugify.js';
+
+const collection = database.collection('actors');
+await collection.createIndex({ slug: 1 }, { unique: true });
+
+export async function addActor(actor) {
+    if (!actor.slug && actor.name) {
+        actor.slug = createActorSlug(actor.name);
+    }
+
+    const result = await collection.insertOne(actor);
+    return result.insertedId;
+}
+
+export async function getActor(actorId) {
+    return await collection.findOne({ _id: actorId });
+}
+
+export async function getActorByName(name) {
+    return await collection.findOne({ name: name });
+}
+
+export async function getActorBySlug(slug) {
+    return await collection.findOne({ slug: slug });
+}
+
+export async function searchActors(query) {
+    return await collection
+        .find({
+            name: { $regex: query, $options: 'i' }  // case-insensitive
+        })
+        .limit(10)
+        .toArray();
+}
+
+export async function updateActor(slug, updatedActor) {
+    try {
+        // Regenerate slug if name is updated
+        if (updatedActor.name) {
+            updatedActor.slug = createActorSlug(updatedActor.name);
+        }
+
+        const result = await collection.findOneAndUpdate(
+            { slug: slug },
+            { $set: updatedActor },
+            { returnDocument: 'after' } // returns the updated document and not the original
+        );
+
+        if (!result) {
+            throw new Error('Actor not found for update');
+        }
+
+        return result;
+    } catch (error) {
+        console.error('Error in updateActor:', error);
+        throw error;
+    }
+}
+
+export async function deleteActor(slug) {
+    const result = await collection.deleteOne({ slug: slug });
+    return result.deletedCount > 0;
+}

@@ -1,0 +1,430 @@
+[
+  {
+    "title": "The Long Walk",
+    "slug": "the-long-walk_2025",
+    "poster": "the-long-walk_2025.jpg",
+    "description": "In a dystopian, alternate-America ruled by a totalitarian regime, 50 teenage boys take part in a deadly annual walking contest, forced to maintain a minimum pace or be executed, until only one survivor remains.",
+    "genre": ["Horror", "Science Fiction", "Thriller"],
+    "releaseDate": "2025-09-12",
+    "countryOfProduction": ["USA"],
+    "ageRating": "16",
+    "actors": null
+  },
+  {
+    "title": "One Battle After Another",
+    "slug": "one-battle-after-another_2025",
+    "poster": "one-battle-after-another_2025.jpg",
+    "description": "When their evil nemesis resurfaces after 16 years, a band of ex-revolutionaries reunite to rescue the daughter of one of their own.",
+    "genre": ["Thriller", "Comedy", "Action", "Crime"],
+    "releaseDate": "2025-09-08",
+    "countryOfProduction": ["USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Leonardo DiCaprio", "role": "Bob" },
+      { "name": "Sean Penn", "role": "Steven J. Lockjaw" },
+      { "name": "Chase Infiniti", "role": "Willa" }
+    ]
+  },
+  {
+    "title": "The Conjuring: Last Rites",
+    "slug": "the-conjuring-last-rites_2025",
+    "poster": "the-conjuring-last-rites_2025.jpg",
+    "description": "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
+    "genre": ["Horror"],
+    "releaseDate": "2025-09-05",
+    "countryOfProduction": ["USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Vera Farmiga", "role": "Lorraine Warren" },
+      { "name": "Patrick Wilson", "role": "Ed Warren" }
+    ]
+  },
+  {
+    "title": "Weapons",
+    "slug": "weapons_2025",
+    "poster": "weapons_2025.jpg",
+    "description": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+    "genre": ["Horror", "Mystery"],
+    "releaseDate": "2025-08-08",
+    "countryOfProduction": ["USA"],
+    "ageRating": "18",
+    "actors": null
+  },
+  {
+    "title": "Materialists",
+    "slug": "materialists_2025",
+    "poster": "materialists_2025.jpg",
+    "description": "A young, ambitious New York City matchmaker finds herself torn between the perfect match and her imperfect ex.",
+    "genre": ["Romance", "Drama"],
+    "releaseDate": "2025-06-13",
+    "countryOfProduction": ["USA", "Finland"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Dakota Johnson", "role": "Lucy" },
+      { "name": "Chris Evans", "role": "John" },
+      { "name": "Pedro Pascal", "role": "Harry" }
+    ]
+  },
+  {
+    "title": "Mickey 17",
+    "slug": "mickey-17_2025",
+    "poster": "mickey-17_2025.jpg",
+    "description": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job… to die, for a living.",
+    "genre": ["Comedy", "Adventure", "Science Fiction"],
+    "releaseDate": "2025-02-13",
+    "countryOfProduction": ["USA", "UK"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Robert Pattinson", "role": "Mickey Barnes" }
+    ]
+  },
+  {
+    "title": "The Wild Robot",
+    "slug": "the-wild-robot_2024",
+    "poster": "the-wild-robot_2024.jpg",
+    "description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island’s animals and cares for an orphaned baby goose.",
+    "genre": ["Animation", "Drama", "Family", "Science Fiction"],
+    "releaseDate": "2024-09-08",
+    "countryOfProduction": ["USA"],
+    "ageRating": "A",
+    "actors": null
+  },
+  {
+    "title": "The Penguin Lessons",
+    "slug": "the-penguin-lessons_2024",
+    "poster": "the-penguin-lessons_2024.jpg",
+    "description": "In 1976, as Argentina descends into violence and chaos, a world-weary English teacher regains his compassion for others thanks to an unlikely friendship with a penguin.",
+    "genre": ["Drama"],
+    "releaseDate": "2024-09-06",
+    "countryOfProduction": ["Spain", "UK", "USA"],
+    "ageRating": "7",
+    "actors": [
+      { "name": "Steve Coogan", "role": "Tom Michell" }
+    ]
+  },
+  {
+    "title": "Queer",
+    "slug": "queer_2024",
+    "poster": "queer_2024.jpg",
+    "description": "In 1950s Mexico City, William Lee, an American ex-pat in his late forties, leads a solitary life amidst a small American community. However, the arrival in town of Eugene Allerton, a young student, stirs William into finally establishing a meaningful connection with someone.",
+    "genre": ["Romance", "Drama"],
+    "releaseDate": "2024-09-03",
+    "countryOfProduction": ["Italy", "USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Daniel Craig", "role": "William Lee" },
+      { "name": "Drew Starkey", "role": "Eugene Allerton" }
+    ]
+  },
+  {
+    "title": "Niki",
+    "slug": "niki_2024",
+    "poster": "niki_2024.jpg",
+    "description": "French-American artist Niki de Saint-Phalle, from the age of 23, is a model and an aspiring actor who is married and has a two year old daughter. Together, they flee the U.S. during the oppressive McCarthy era and come to France, where they experience a short-lived euphoria. Soon, distant and frightening memories begin to emerge in Niki’s mind. Her vocation as an artist will be her salvation.",
+    "genre": ["Drama", "History"],
+    "releaseDate": "2024-05-23",
+    "countryOfProduction": ["France", "Belgium"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Charlotte Le Bon", "role": "Niki de Saint Phalle" },
+      { "name": "Damien Bonnard", "role": "Jean Tinguely" },
+      { "name": "John Robinson", "role": "Harry Matthews" }
+    ]
+  },
+  {
+    "title": "Flow",
+    "slug": "flow_2024",
+    "poster": "flow_2024.jpg",
+    "description": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+    "genre": ["Family", "Fantasy", "Animation", "Adventure"],
+    "releaseDate": "2024-05-22",
+    "countryOfProduction": ["Latvia", "Belgium", "France"],
+    "ageRating": "7",
+    "actors": null
+  },
+  {
+    "title": "Challengers",
+    "slug": "challengers_2024",
+    "poster": "challengers_2024.jpg",
+    "description": "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Major champion. To jolt him out of his recent losing streak, she signs him up for a “Challenger” event — close to the lowest level of pro tournament — where he finds himself standing across the net from his former best friend and Tashi’s former boyfriend.",
+    "genre": ["Romance", "Drama"],
+    "releaseDate": "2024-03-26",
+    "countryOfProduction": ["Italy", "USA"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Zendaya", "role": "Tashi Duncan Donaldson" },
+      { "name": "Mike Faist", "role": "Art Donaldson" },
+      { "name": "Josh O'Connor", "role": "Patrick Zweig" }
+    ]
+  },
+  {
+    "title": "All of Us Strangers",
+    "slug": "all-of-us-stranger_2023",
+    "poster": "all-of-us-stranger_2023.jpg",
+    "description": "One night in his near-empty tower block in contemporary London, Adam has a chance encounter with a mysterious neighbor Harry, which punctures the rhythm of his everyday life.",
+    "genre": ["Drama", "Romance", "Fantasy"],
+    "releaseDate": "2023-08-31",
+    "countryOfProduction": ["UK", "USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Andrew Scott", "role": "Adam" },
+      { "name": "Paul Mescal", "role": "Harry" }
+    ]
+  },
+  {
+    "title": "Saltburn",
+    "slug": "saltburn_2023",
+    "poster": "saltburn_2023.jpg",
+    "description": "Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family’s sprawling estate, for a summer never to be forgotten.",
+    "genre": ["Comedy", "Drama", "Thriller"],
+    "releaseDate": "2023-08-31",
+    "countryOfProduction": ["UK", "USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Barry Keoghan", "role": "Oliver Quick" },
+      { "name": "Jacob Elordi", "role": "Felix Catton" }
+    ]
+  },
+  {
+    "title": "Rotting in the Sun",
+    "slug": "rotting-in-the-sun_2023",
+    "poster": "rotting-in-the-sun_2023.jpg",
+    "description": "A filmmaker facing an existential crisis goes on a vacation to a Mexican gay nudist beach, where he meets a social media celebrity who convinces him to collaborate with him on his new TV show. But one disappears and another embarks on a wild journey through Mexico City to find him.",
+    "genre": ["Thriller", "Comedy", "Mystery"],
+    "releaseDate": "2023-01-22",
+    "countryOfProduction": ["Chile", "Mexico", "USA"],
+    "ageRating": "18",
+    "actors": [
+      { "name": "Sebastián Silva", "role": "himself" },
+      { "name": "Jordan Firstman", "role": "himself" }
+    ]
+  },
+  {
+    "title": "Triangle of Sadness",
+    "slug": "triangle-of-sadness_2022",
+    "poster": "triangle-of-sadness_2022.jpg",
+    "description": "A celebrity model couple are invited on a luxury cruise for the uber-rich, helmed by an unhinged, alcoholic captain. What first appears Instagrammable ends catastrophically, leaving the survivors stranded on a desert island in a struggle of hierarchy.",
+    "genre": ["Drama", "Comedy"],
+    "releaseDate": "2022-05-22",
+    "countryOfProduction": ["Denmark", "France", "Germany", "Greece", "Mexico", "Sweden", "Switzerland", "Turkey", "UK", "USA"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Harris Dickinson", "role": "Carl" },
+      { "name": "Charlbi Dean", "role": "Yaya" }
+    ]
+  },
+  {
+    "title": "Don't Look Up",
+    "slug": "dont-look-up_2021",
+    "poster": "dont-look-up_2021.jpg",
+    "description": "Two astronomers go on a media tour to warn humankind of a planet-killing comet hurtling toward Earth. The response from a distracted world: Meh.",
+    "genre": ["Science Fiction", "Comedy"],
+    "releaseDate": "2021-12-05",
+    "countryOfProduction": ["USA"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Leonardo DiCaprio", "role": "Dr. Randall Mindy" },
+      { "name": "Timothée Chalamet", "role": "Yule" }
+    ]
+  },
+  {
+    "title": "The Conjuring: The Devil Made Me Do It",
+    "slug": "the-conjuring-the-devil-made-me-do-it_2021",
+    "poster": "the-conjuring-the-devil-made-me-do-it_2021.jpg",
+    "description": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they’d ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
+    "genre": ["Thriller", "Horror", "Mystery"],
+    "releaseDate": "2021-05-25",
+    "countryOfProduction": ["USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Vera Farmiga", "role": "Lorraine Warren" },
+      { "name": "Patrick Wilson", "role": "Ed Warren" }
+    ]
+  },
+  {
+    "title": "Tenet",
+    "slug": "tenet_2020",
+    "poster": "tenet_2020.jpg",
+    "description": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    "genre": ["Science Fiction", "Action", "Thriller"],
+    "releaseDate": "2020-08-22",
+    "countryOfProduction": ["UK", "USA"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Robert Pattinson", "role": "Neil" }
+    ]
+  },
+  {
+    "title": "The Lighthouse",
+    "slug": "the-lighthouse_2019",
+    "poster": "the-lighthouse_2019.jpg",
+    "description": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
+    "genre": ["Thriller", "Fantasy", "Horror", "Drama"],
+    "releaseDate": "2019-05-19",
+    "countryOfProduction": ["Brazil", "USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Robert Pattinson", "role": "Thomas Howard" }
+    ]
+  },
+  {
+    "title": "Call me by your Name",
+    "slug": "call-me-by-your-name_2017",
+    "poster": "call-me-by-your-name_2017.jpg",
+    "description": "In the summer of 1983, a 17-year-old Elio spends his days in his family’s villa in Italy. One day Oliver, a graduate student, arrives to assist Elio’s father, a professor of Greco-Roman culture. Soon, Elio and Oliver discover a summer that will alter their lives forever.",
+    "genre": ["Romance", "Drama"],
+    "releaseDate": "2017-01-22",
+    "countryOfProduction": ["Brazil", "France", "Italy", "USA"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Armie Hammer", "role": "Oliver" },
+      { "name": "Timothée Chalamet", "role": "Elio" }
+    ]
+  },
+  {
+    "title": "The Invisible Guest",
+    "slug": "the-invisible-guest_2016",
+    "poster": "the-invisible-guest_2016.jpg",
+    "description": "Barcelona, Spain. Adrián Doria, a young and successful businessman accused of murder, meets one night with Virginia Goodman, an expert interrogation lawyer, in order to devise a defense strategy.",
+    "genre": ["Mystery", "Thriller", "Drama"],
+    "releaseDate": "2016-09-23",
+    "countryOfProduction": ["Spain"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Mario Casas", "role": "Adrián Doria" },
+      { "name": "Ana Wagener", "role": "Elvira Garrido" }
+    ]
+  },
+  {
+    "title": "The Conjuring 2",
+    "slug": "the-conjuring-2_2016",
+    "poster": "the-conjuring-2_2016.jpg",
+    "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
+    "genre": ["Horror"],
+    "releaseDate": "2016-05-13",
+    "countryOfProduction": ["USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Vera Farmiga", "role": "Lorraine Warren" },
+      { "name": "Patrick Wilson", "role": "Ed Warren" }
+    ]
+  },
+  {
+    "title": "The Imitation Game",
+    "slug": "the-imitation-game_2014",
+    "poster": "the-imitation-game_2014.jpg",
+    "description": "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain’s top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
+    "genre": ["Drama", "War", "Thriller", "History"],
+    "releaseDate": "2014-08-29",
+    "countryOfProduction": ["USA", "UK"],
+    "ageRating": "7",
+    "actors": [
+      { "name": "Benedict Cumberbatch", "role": "Alan Turing" },
+      { "name": "Keira Knightley", "role": "Joan Clarke" }
+    ]
+  },
+  {
+    "title": "The Conjuring",
+    "slug": "the-conjuring_2013",
+    "poster": "the-conjuring_2013.jpg",
+    "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
+    "genre": ["Horror", "Thriller"],
+    "releaseDate": "2013-07-15",
+    "countryOfProduction": ["USA"],
+    "ageRating": "16",
+    "actors": [
+      { "name": "Vera Farmiga", "role": "Lorraine Warren" },
+      { "name": "Patrick Wilson", "role": "Ed Warren" }
+    ]
+  },
+  {
+    "title": "Inception",
+    "slug": "inception_2010",
+    "poster": "inception_2010.jpg",
+    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: “inception”, the implantation of another person’s idea into a target’s subconscious.",
+    "genre": ["Action", "Adventure", "Science Fiction"],
+    "releaseDate": "2018-07-08",
+    "countryOfProduction": ["UK", "USA"],
+    "ageRating": "12",
+    "actors": null
+  },
+  {
+    "title": "Twilight",
+    "slug": "twilight_2008",
+    "poster": "twilight_2008.jpg",
+    "description": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward’s repeated cautions, Bella can’t stay away from him, a fatal move that endangers her own life.",
+    "genre": ["Drama", "Fantasy", "Romance"],
+    "releaseDate": "2008-11-20",
+    "countryOfProduction": ["UK", "USA"],
+    "ageRating": "12",
+    "actors": [
+      { "name": "Robert Pattinson", "role": "Edward Cullen" }
+    ]
+  },
+  {
+    "title": "Howl’s Moving Castle",
+    "slug": "howls-moving-castle_2004",
+    "poster": "howls-moving-castle_2004.jpg",
+    "description": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
+    "genre": ["Animation", "Fantasy", "Adventure"],
+    "releaseDate": "2004-09-05",
+    "countryOfProduction": ["Japan"],
+    "ageRating": "7",
+    "actors": null
+  },
+  {
+    "title": "Spirited Away",
+    "slug": "spirited-away_2001",
+    "poster": "spirited-away_2001.jpg",
+    "description": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "genre": ["Family", "Fantasy", "Animation"],
+    "releaseDate": "2001-07-20",
+    "countryOfProduction": ["Japan"],
+    "ageRating": "A",
+    "actors": null
+  },
+  {
+    "title": "Princess Mononoke",
+    "slug": "princess-mononoke_1997",
+    "poster": "princess-mononoke_1997.jpg",
+    "description": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
+    "genre": ["Fantasy", "Adventure", "Animation"],
+    "releaseDate": "1997-07-12",
+    "countryOfProduction": ["Japan"],
+    "ageRating": "7",
+    "actors": null
+  },
+  {
+    "title": "Back to the Future Part III",
+    "slug": "back-to-the-future-part-iii_1990",
+    "poster": "back-to-the-future-part-iii_1990.jpg",
+    "description": "The final installment finds Marty digging the trusty DeLorean out of a mineshaft and looking for Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+    "genre": ["Comedy", "Adventure", "Science Fiction"],
+    "releaseDate": "1990-05-25",
+    "countryOfProduction": ["USA"],
+    "ageRating": "A",
+    "actors": null
+  },
+  {
+    "title": "Back to the Future Part II",
+    "slug": "back-to-the-future-part-ii_1989",
+    "poster": "back-to-the-future-part-ii_1989.jpg",
+    "description": "Marty and Doc are at it again as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents – again.",
+    "genre": ["Science Fiction", "Comedy", "Adventure"],
+    "releaseDate": "1989-11-20",
+    "countryOfProduction": ["USA"],
+    "ageRating": "A",
+    "actors": null
+  },
+  {
+    "title": "Back to the Future",
+    "slug": "back-to-the-future_1985",
+    "poster": "back-to-the-future_1985.jpg",
+    "description": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents’ first meeting and attracting his mother’s romantic interest. Marty must repair the damage to history by rekindling his parents’ romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+    "genre": ["Adventure", "Comedy", "Science Fiction"],
+    "releaseDate": "1985-07-03",
+    "countryOfProduction": ["USA"],
+    "ageRating": "A",
+    "actors": null
+  }
+]

@@ -1,0 +1,77 @@
+@import url("base.css");
+@import url("moviePoster.css");
+@import url("actorPortrait.css");
+
+.metaRow > div {
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.metaRow > h3 {
+    text-align: right;
+    min-width: min-content;
+    max-width: 50%;
+}
+
+.topRow.headerActors {
+    height: 2em;
+    margin: 0;
+}
+
+.headerActors .btn {
+    height: 2em;
+    width: 2em;
+}
+
+.headerActors i {
+    font-size: 1em;
+}
+
+.headerActors .btn.rotated i {
+    transform: rotate(45deg);
+}
+
+#editActors {
+    padding: 1em;
+    border-radius: var(--border-radius);
+    background-color: var(--color-bg-alt-lighter);
+}
+
+.notEditingActors {
+    display: none;
+}
+
+.actor {
+    box-sizing: content-box;
+    height: 3em;
+    padding: 0.5em;
+    border-radius: var(--border-radius);
+    transition: background-color var(--animation);
+}
+
+.actor:hover {
+    background-color: var(--color-bg-hover);
+}
+
+.actor p {
+    display: inline;
+    white-space: nowrap;
+}
+
+.actor i {
+    font-size: 1.2em;
+    padding: 0.6em;
+}
+
+.actorOverlay {
+    opacity: 0;
+    transition: opacity var(--animation);
+}
+
+.actor:hover .actorOverlay {
+    opacity: 1;
+}
+
+.actorOverlay i {
+    font-size: var(--icon-size-medium);
+}

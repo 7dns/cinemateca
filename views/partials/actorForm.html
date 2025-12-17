@@ -1,0 +1,114 @@
+<!-- 
+	Form Attributes:
+	- role="form": Semantic role for accessibility
+	- onsubmit="submitActorForm(event)": Submits the form via AJAX.
+	- action="{{action}}": Dynamic action URL provided by the server (see actorRoutes.js)
+	- enctype="multipart/form-data": Required for file uploads
+-->
+<form
+    role="form"
+    action="{{action}}"
+    onsubmit="submitActorForm(event {{#isCompact}}, handleActorFormSuccess{{/isCompact}})"
+    enctype="multipart/form-data"
+    class="container-fluid needs-validation p-0"
+    novalidate>
+	{{#movie}}
+	<input type="hidden" name="movieSlug" value="{{slug}}">
+	{{/movie}}
+
+	<div class="row g-3">
+
+		<div class="col-12 {{^isCompact}} col-md-6 {{/isCompact}}">
+            <div class="image-upload-container {{#isCompact}}w-25 mx-auto{{/isCompact}}">
+            <label for="actorPortrait" id="uploadBox" class="upload-box upload-box-portrait p-0 m-0">
+                <i class="bi bi-cloud-upload-fill"></i>
+                {{#actor.portrait}}
+                <img src="/actor/portraits/{{.}}" alt="Current portrait">
+                {{/actor.portrait}}
+                <input
+                    type="file"
+                    id="actorPortrait"
+                    name="portrait"
+                    accept="image/jpeg,image/png,image/jpg" />
+            </label>
+
+            <div id="imagePreview" class="image-preview-actor" style="display: none;">
+                <img id="previewImg" src="" alt="Preview">
+                <button type="button" id="removeImage">
+                    <i class="bi bi-trash3-fill"></i>
+                </button>
+            </div>
+            </div>
+        </div>
+
+		<div class="col-12 {{^isCompact}} col-md-6 {{/isCompact}}">
+			<div class="d-flex flex-column gap-2">
+				<label for="actorName">Name</label>
+				<input
+                    class="form-control"
+					name="name"
+					id="actorName"
+					type="text"
+					placeholder="Actor Name"
+					value="{{actor.name}}">
+                <div class="invalid-feedback"></div>
+
+                {{#movie}}
+                <label for="actorRole">Role</label>
+                <input
+                    class="form-control"
+                    name="role"
+                    id="actorRole"
+                    type="text"
+                    placeholder="Role..."
+                    value="{{actor.role}}">
+                <div class="invalid-feedback"></div>
+                {{/movie}}
+
+				<label for="actorBirthDate">Birth Date</label>
+				<input
+                    class="form-control"
+					name="dateOfBirth"
+					id="actorBirthDate"
+					type="date"
+					value="{{actor.dateOfBirth}}">
+                <div class="invalid-feedback"></div>
+
+				<label for="actorBirthPlace">Place of Birth</label>
+				<input
+                    class="form-control"
+					name="placeOfBirth"
+					id="actorBirthPlace"
+					type="text"
+					placeholder="Place of Birth"
+					value="{{actor.placeOfBirth}}">
+                <div class="invalid-feedback"></div>
+
+				<label for="actorDescription">Description</label>
+				<textarea
+                    class="form-control"
+                    name="description"
+                    id="actorDescription"
+                    rows="3"
+                    placeholder="Enter a description (50-1000 characters)">{{actor.description}}</textarea>
+				<small class="form-text text-muted m-0" id="charCount">0 / 1000 characters</small>
+                <div class="invalid-feedback"></div>
+
+				<button type="submit" class="btn btn-full mt-2">
+                    <i class="bi bi-floppy-fill"></i>
+                    {{#actor}}
+					<span>Update</span>
+					{{/actor}}
+					{{^actor}}
+					<span>Save</span>
+					{{/actor}}
+				</button>
+
+                <div id="loadingSpinner" class="formSpinner mt-2" role="status" style="display: none;">
+                    <div class="spinner-border" role="status"></div>
+                    <span class="text-muted">Processing ...</span>
+                </div>
+			</div>
+		</div>
+	</div>
+</form>

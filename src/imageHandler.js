@@ -1,0 +1,70 @@
+import multer from 'multer';
+import path from 'path';
+import fs from 'fs';
+
+import { PATHS } from './constants.js';
+
+// Base upload directories
+const UPLOADS_BASE = PATHS.UPLOADS_BASE_FULL;
+const POSTER_FOLDER = PATHS.MOVIE_POSTERS_FULL;
+const ACTORS_FOLDER = PATHS.ACTORS_FULL;
+
+// Ensure directories exist
+[UPLOADS_BASE, POSTER_FOLDER, ACTORS_FOLDER].forEach(directory => {
+    if (!fs.existsSync(directory)) {
+        fs.mkdirSync(directory, { recursive: true });
+    }
+});
+
+// Sanitize title/actor names for filenames
+const sanitizeFilename = (text) => {
+    return text
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+};
+
+// Multer storage factory
+const createStorage = (folder) =>
+    multer.diskStorage({
+        destination: (req, file, cb) => cb(null, folder),
+        filename: (req, file, cb) => {
+            const ext = path.extname(file.originalname);
+            cb(null, `tmp_${Date.now()}${ext}`);
+        }
+    });
+
+// Upload handlers
+export const uploadPoster = multer({ storage: createStorage(POSTER_FOLDER) }).single('poster');
+export const uploadPortrait = multer({ storage: createStorage(ACTORS_FOLDER) }).single('portrait');
+
+// Rename uploaded files consistently
+export const renameUploadedFile = (folder, oldFilename, label, year = null, existingFile = null) => {
+    const oldPath = path.join(folder, oldFilename);
+    if (!fs.existsSync(oldPath)) { return null; }
+
+    const ext = path.extname(oldFilename);
+    const sanitized = sanitizeFilename(label);
+    const suffix = year ? `_${year}` : '';
+    const newFilename = `${sanitized}${suffix}${ext}`;
+    const newPath = path.join(folder, newFilename);
+
+    try {
+        fs.renameSync(oldPath, newPath);
+
+        // Delete previously existing file
+        if (existingFile && existingFile !== newFilename) {
+            deleteUploadedFile(folder, existingFile);
+        }
+
+        return newFilename;
+    } catch (err) {
+        console.error('File rename error:', err);
+        return oldFilename;
+    }
+};
+
+export function deleteUploadedFile(folder, fileName) {
+    const filePath = path.join(folder, fileName);
+    if (fs.existsSync(filePath)) { fs.unlinkSync(filePath); }
+}
